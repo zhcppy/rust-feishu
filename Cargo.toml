@@ -1,0 +1,20 @@
+[package]
+name = "feishu"
+version = "0.1.0"
+authors = ["zakir <zakir@wokoworks.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+log = "0.4.14"
+env_logger = "0.8.3"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+sha2 = "0.9"
+hmac = "0.11.0"
+base64 = "0.13.0"
+eyre = "0.6"
